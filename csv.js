@@ -31,9 +31,9 @@ function getArrayOfSalaryData() {
         let salary = jobData[2];
         if (position === 'Software Engineer') {
         total += Number(salary);
-        umOfSoftwareEngineers += 1;
+        numOfSoftwareEngineers += 1;
         }
 
     }
-    console.log(total/umOfSoftwareEngineers);
+    console.log(total/numOfSoftwareEngineers);
 }
